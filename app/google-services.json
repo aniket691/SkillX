@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434745076859",
+    "project_id": "finteched-71e83",
+    "storage_bucket": "finteched-71e83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434745076859:android:a2b23ba617981aed6806de",
+        "android_client_info": {
+          "package_name": "com.example.finantialplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434745076859-kiie6ts6h7np001amc140bmro0cggu1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIXQRbn5nWaSsAAVFXoOOmckH4p6QhTdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434745076859-kiie6ts6h7np001amc140bmro0cggu1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
