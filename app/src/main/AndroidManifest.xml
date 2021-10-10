@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.finantialplanner">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,14 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinantialPlanner">
         <activity
-            android:name=".MainActivity"
+            android:name=".common.PhoneAuthAct"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".common.Main"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FinantialPlanner.NoActionBar" />
     </application>
 
 </manifest>

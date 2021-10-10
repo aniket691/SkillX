@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/expenseTracker">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.finantialplanner.ui.FirstFragment"
+        android:label="FirstFragment" />
+    <fragment
+        android:id="@+id/expenseTracker"
+        android:name="com.example.finantialplanner.ui.ExpenseTracker"
+        android:label="fragment_expense_tracker"
+        tools:layout="@layout/fragment_expense_tracker" />
+</navigation>
