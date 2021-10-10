@@ -15,6 +15,18 @@
             android:title="Expense Tracker" />
 
         <item
+            android:id="@+id/pandl"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profit and Loss" />
+
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Help" />
+
+
+        <item
             android:id="@+id/sign_out"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Sign Out" />

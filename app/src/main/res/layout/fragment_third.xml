@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="***Profit Loss Calculator***"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_first_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter your buy value : "
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <!--take the input first number-->
+
+
+    <EditText
+        android:id="@+id/editText_first_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <!-- for message input first number-->
+
+    <!--view message -->
+    <TextView
+        android:id="@+id/textView_second_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter your sell value : "
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <!-- take input for second number -->
+
+    <EditText
+        android:id="@+id/editText_second_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <!-- button for run add logic and view result -->
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Calculate"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Result :"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</LinearLayout>

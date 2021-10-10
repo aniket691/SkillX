@@ -14,4 +14,12 @@
         android:name="com.example.finantialplanner.ui.ExpenseTracker"
         android:label="fragment_expense_tracker"
         tools:layout="@layout/fragment_expense_tracker" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.finantialplanner.ui.SecondFragment"
+        android:label="SecondFragment" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.finantialplanner.ui.ThirdFragment"
+        android:label="ThirdFragment" />
 </navigation>

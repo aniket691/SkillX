@@ -86,6 +86,14 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
                 navController.navigate(R.id.firstFragment);
                 break;
 
+            case R.id.pandl:
+                navController.navigate(R.id.thirdFragment);
+                break;
+
+            case R.id.help:
+                navController.navigate(R.id.secondFragment);
+                break;
+
             case R.id.sign_out:
                 FirebaseAuth mAuth = FirebaseAuth.getInstance();
                 mAuth.signOut();
